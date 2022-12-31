@@ -17,7 +17,9 @@ app.get("/", (req, res) => {
 });
 
 
-app.use('/' , TransactionRouters);
+app.use('/transaction' , TransactionRouters);
+
+
 
 await connect()
 
